@@ -1,0 +1,45 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Vuetify
+@import '~vuetify/dist/vuetify.min.css';
+
+// Vuetify Files
+@import "https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css";
+@import "https://fonts.googleapis.com/css?family=Material+Icons";
+@import '~vuetify/dist/vuetify.css';
+
+
+.v-btn__content {
+    align-items: center;
+    color: inherit;
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: inherit;
+    line-height: normal;
+    position: relative;
+    transition: inherit;
+    transition-property: opacity;
+    max-width: 250px;
+
+overflow: hidden;
+display: -webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+}
+
+// .title-tag-line span {
+//     /* font-size: 3.1em; */
+//     font-size: calc(0.5em + 3vw);
+//     padding: 0 25px;
+//     color: #17d8e2;
+//     font-weight: bold;
+//     white-space: nowrap;
+//     overflow: hidden;
+// }
+
+
+
